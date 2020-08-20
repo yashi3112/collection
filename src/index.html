@@ -6,8 +6,35 @@
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+	<!-- Main CSS File -->
+  <link rel="stylesheet" type="text/css"  href="/assets/css/style.css">
+  <link rel="stylesheet" type="text/css" href="/assets/vendor/fontawesome-free/css/all.min.css"> 
+ 
+  <!-- Favicon -->
+  <link rel="icon" type="image/x-icon" href="/assets/images/icons/favicon.ico">
+ 
+	<script type="text/javascript">
+		WebFontConfig = {
+			google: { families: [ 'Open+Sans:300,400,600,700,800','Poppins:300,400,500,600,700', 'Shadows+Into+Light:400' ] }
+		};
+		(function(d) {
+			var wf = d.createElement('script'), s = d.scripts[0];
+			wf.src = '/assets/js/webfont.js';
+			wf.async = true;
+			s.parentNode.insertBefore(wf, s);
+		})(document);
+	</script>
 </head>
 <body>
   <app-root></app-root>
+  	<!-- Plugins JS File -->
+	<script src="/assets/js/jquery.min.js"></script>
+	<script src="/assets/js/bootstrap.bundle.min.js"></script>
+	<script src="/assets/js/optional/isotope.pkgd.min.js"></script>
+	<script src="/assets/js/plugins.min.js"></script>
+
+	<!-- Main JS File -->
+	<script src="/assets/js/main.min.js"></script>
 </body>
 </html>
